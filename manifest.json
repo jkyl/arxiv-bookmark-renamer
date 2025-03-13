@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "ArXiv Bookmark Renamer",
+    "version": "1.0",
+    "description": "Renames ArXiv bookmarks to use paper titles instead of catalog numbers",
+    "permissions": [
+        "bookmarks",
+        "storage"
+    ],
+    "host_permissions": [
+        "http://export.arxiv.org/*"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
